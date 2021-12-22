@@ -8,9 +8,15 @@
 
 > 如果你只关注大屏页面本身，即 views -> dashboard -> index.vue，那么只需要你有 vue2 基础即可
 
-完全基于花裤衩大佬的 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 进行精简改造，没什么技术含量。
+该项目完全基于花裤衩大佬的 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 进行精简改造，没什么技术含量。
 
 大屏代码在 views -> dashboard -> index.vue，而其他文件（比如 api、store、utils）只是备用，该模板暂时还没有用到。
+
+## 温馨提示
+
+- 没有用过类似 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 项目经验的朋友可能依旧会觉得该模板比较 "臃肿"
+
+- [DataV](https://github.com/DataV-Team/DataV) 是一个很好用的大屏可视化组件库，可以预先阅读以下它的文档
 
 ## 开发
 
@@ -61,11 +67,6 @@ yarn lint
 - `types` 类型定义文件更改
 - `wip` 开发中
 - `mod` 不确定分类的修改
-
-## 站在巨人的肩膀上
-
-- [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- [DataV](https://github.com/DataV-Team/DataV)
 
 ## 📄 License
 
