@@ -10,15 +10,15 @@
     "lint": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
-    "@jiaminghi/data-view": "^2.10.0",
-    "axios": "0.18.1",
+    "@jiaminghi/data-view": "2.10.0",
+    "axios": "0.24.0",
     "core-js": "3.6.5",
-    "dayjs": "^1.10.7",
+    "dayjs": "1.10.7",
     "element-ui": "2.13.2",
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
-    "screenfull": "^5.2.0",
+    "screenfull": "5.2.0",
     "vue": "2.6.10",
     "vue-router": "3.0.6",
     "vuex": "3.1.0"
