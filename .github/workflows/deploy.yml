@@ -1,0 +1,30 @@
+name: Build And Deploy v2-datav-template
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js 16.13.0
+        uses: actions/setup-node@master
+        with:
+          node-version: "16.13.0"
+
+      - name: Build
+        run: yarn install && yarn build:prod
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.V3 }}
+          BRANCH: gh-pages
+          FOLDER: dist
