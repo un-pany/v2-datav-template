@@ -14,22 +14,21 @@ export const constantRoutes = [
     component: () => import('@/views/404')
   },
 
-  // 404 page must be placed at the end !!!
+  // 404 页面必须放在末尾
   { path: '*', redirect: '/404' }
 ]
 
 const createRouter = () => new Router({
-  // mode: 'history', // require service support
+  // mode: 'history',
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRoutes
 })
 
 const router = createRouter()
 
-// Detail see: https://github.com/vuejs/vue-router/issues/1234#issuecomment-357941465
 export function resetRouter() {
   const newRouter = createRouter()
-  router.matcher = newRouter.matcher // reset router
+  router.matcher = newRouter.matcher // 重置路由
 }
 
 export default router
