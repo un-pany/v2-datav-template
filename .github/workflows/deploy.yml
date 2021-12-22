@@ -3,7 +3,7 @@ name: Build And Deploy v2-datav-template
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
