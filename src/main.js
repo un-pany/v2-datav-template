@@ -15,6 +15,11 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+import dataV from '@jiaminghi/data-view'
+
+// 将自动注册所有 datav 组件为全局组件
+Vue.use(dataV)
+
 // set ElementUI lang to EN
 // Vue.use(ElementUI, { locale })
 // 如果想要中文版 element-ui，按如下方式声明
