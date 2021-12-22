@@ -10,12 +10,13 @@ const name = 'v2-datav-template' // page title
 const port = process.env.port || process.env.npm_config_port || 9528 // dev port
 
 module.exports = {
-  publicPath: '/',
+  publicPath: './',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   devServer: {
+    publicPath: '/',
     port: port,
     open: true,
     overlay: {
