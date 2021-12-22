@@ -1,10 +1,12 @@
-> 该模板默认你有 vue2 + vuex + vue-router 项目基础
-
 ## 简介
 
-基于 datav 的 vue2 大屏可视化模板
+基于 vue2 和 datav 的大屏可视化模板
 
 ## 特别说明
+
+> 该模板默认你有 vue2 + vuex + vue-router + axios  项目基础
+
+> 如果你只关注大屏页面本身，即 views -> dashboard -> index.vue，那么只需要你有 vue2 基础即可
 
 完全基于花裤衩大佬的 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 进行精简改造，没什么技术含量。
 
