@@ -1,6 +1,14 @@
+> 该模板默认你有 vue2 + vuex + vue-router 项目基础
+
 ## 简介
 
 基于 datav 的 vue2 大屏可视化模板
+
+## 特别说明
+
+完全基于花裤衩大佬的 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 进行精简改造，没什么技术含量。
+
+大屏代码在 views -> dashboard -> index.vue，而其他文件（比如 api、store、utils）只是备用，该模板暂时还没有用到。
 
 ## 开发
 
