@@ -76,7 +76,9 @@
           <div class="center-text-1">xxx</div>
           <div class="center-text-2">9527</div>
           <div class="center-text-3">xxx</div>
-          <div class="img" />
+          <div class="capsule">
+            <dv-capsule-chart :config="capsuleConfig" />
+          </div>
           <div class="scroll">
             <dv-scroll-board :config="scroll1" />
           </div>
@@ -172,6 +174,78 @@ export default {
             type: 'bar',
             independentColor: true,
             independentColors: ['rgb(80,152,254)', 'rgb(80,220,193)', 'rgb(188,102,254)', 'rgb(254,140,67)']
+          }
+        ]
+      },
+      capsuleConfig: {
+        data: [
+          {
+            name: 'xx',
+            value: 167
+          },
+          {
+            name: 'xx',
+            value: 67
+          },
+          {
+            name: 'xx',
+            value: 123
+          },
+          {
+            name: 'xx',
+            value: 55
+          },
+          {
+            name: 'xx',
+            value: 98
+          },
+          {
+            name: 'xx',
+            value: 167
+          },
+          {
+            name: 'xx',
+            value: 67
+          },
+          {
+            name: 'xx',
+            value: 123
+          },
+          {
+            name: 'xx',
+            value: 55
+          },
+          {
+            name: 'xx',
+            value: 98
+          },
+          {
+            name: 'xx',
+            value: 123
+          },
+          {
+            name: 'xx',
+            value: 55
+          },
+          {
+            name: 'xx',
+            value: 98
+          },
+          {
+            name: 'xx',
+            value: 167
+          },
+          {
+            name: 'xx',
+            value: 123
+          },
+          {
+            name: 'xx',
+            value: 55
+          },
+          {
+            name: 'xx',
+            value: 98
           }
         ]
       },
@@ -427,12 +501,9 @@ export default {
         background-size: 100% 100%;
         color: rgb(13, 155, 255);
       }
-      .img {
+      .capsule {
         width: 75%;
         flex: 1;
-        background-image: url("~@/assets/dashboard/top6.svg");
-        background-size: 100% 100%;
-        margin-bottom: 3%;
       }
       .scroll {
         height: 30%;
