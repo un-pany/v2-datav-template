@@ -16,7 +16,7 @@
 
 - 没有用过类似 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 项目经验的朋友可能依旧会觉得该模板比较 "臃肿"
 
-- [DataV](https://github.com/DataV-Team/DataV) 是一个很好用的大屏可视化组件库，可以预先阅读以下它的文档
+- [DataV](https://github.com/DataV-Team/DataV) 是一个很好用的大屏可视化组件库，可以预先阅读一下它的文档
 
 ## 开发
 
